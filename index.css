@@ -6,6 +6,11 @@ header{
   text-align: center;
 }
 
+body{
+padding: 0;
+margin: 0;
+}
+
 .navbar{
   overflow: hidden;
   background-color:	#353839;
