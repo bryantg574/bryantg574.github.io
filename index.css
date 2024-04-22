@@ -5,12 +5,12 @@ body{
 .header{
   padding:20px;
   text-align: center;
-  background-color: #0e1111;
+  background-color: #3b444b;
 }
 
 .navbar{
   overflow: hidden;
-  background-color: #3b444b;
+  background-color: #414a4c;
 }
 
 .navbar a{
@@ -23,6 +23,6 @@ body{
 }
 
 .navbar a:hover{
-  background-color:#414a4c;
+  background-color:#353839;
   color:black;
 }
