@@ -1,10 +1,22 @@
-.container{
-  display: flex;
-  background-color: black;
+.header{
+  background-color: #232b2b;
+  padding: 20px;
+  text-align: center;
 }
 
-.container > div{
-  background-color: gray;
-  margin: 10px;
-  padding: 20px;
+.topnav{
+  overflow: hidden;
+  background-color:	#353839;
+}
+
+.topnav a {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.topnav a: hover{
+  color: white;
+  background-color:	#414a4c;
 }
