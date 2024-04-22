@@ -4,19 +4,19 @@
   text-align: center;
 }
 
-.topnav{
+.navbar{
   overflow: hidden;
   background-color:	#353839;
 }
 
-.topnav a {
+.navbar a {
   float: left;
   display: inline-block;
   text-align: center;
   padding: 10px 20px;
 }
 
-.topnav a: hover{
+.navbar a: hover{
   color: white;
   background-color:	#414a4c;
 }
