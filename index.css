@@ -2,6 +2,7 @@
   background-color: #232b2b;
   padding: 20px;
   text-align: center;
+  width: 100%;
 }
 
 .navbar{
@@ -14,6 +15,7 @@
   display: inline-block;
   text-align: center;
   padding: 10px 20px;
+  text-decoration= none;
 }
 
 .navbar a: hover{
