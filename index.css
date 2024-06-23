@@ -3,6 +3,41 @@
     padding: 0;
     }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Background */
+.split-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 1;
+  }
+  
+.image-half {
+    background-image: url(/image/DSCF2335.JPG);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+  
+.color-half {
+    background-color: #353839;
+    width: 50%;
+}
+
+/* Navigation Bar */
+nav{
+    position:relative;
+    z-index: 10;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -29,16 +64,12 @@ li a:hover{
     background-color: rgba(19, 19, 20, 0.533);
 }
 
-.body{
-    overflow-y: scroll;
-}
+/* Positioning */
 
-.body{
-
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.body::-webkit-scrollbar{
-    display:none;
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0% 15% 0% 15%;
 }
