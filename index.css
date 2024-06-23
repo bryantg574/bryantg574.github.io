@@ -20,7 +20,7 @@ body, html {
   }
   
 .image-half {
-    background-image: url(/image/DSCF2335.JPG);
+    background-image: url(/assets/DSCF2335.JPG);
     background-size: cover;
     background-position: center;
     width: 50%;
